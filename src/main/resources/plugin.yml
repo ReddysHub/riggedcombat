@@ -1,0 +1,18 @@
+name: riggedcombat
+version: '1.0-SNAPSHOT'
+main: me.xcloud.riggedcombat.RiggedCombatPlugin
+api-version: '1.21'
+author: xcloud
+description: Grants specific players death immunity unless holding a totem.
+softdepend:
+  - LuckPerms
+commands:
+  riggedcombat:
+    description: Add or remove players from the rigged combat list.
+    usage: /<command> [add|remove|reload] <player>
+    permission: rc.editlist
+    aliases: [rc, rigged]
+permissions:
+  rc.editlist:
+    description: Allows editing the rigged combat player list and reloading config.
+    default: op

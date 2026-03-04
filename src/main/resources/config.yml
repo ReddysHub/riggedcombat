@@ -1,0 +1,26 @@
+# =============================================
+#         RiggedCombat Configuration
+# =============================================
+
+# Settings
+settings:
+  # Minimum health a rigged player can drop to (in half-hearts).
+  # 1.0 = half a heart, 2.0 = 1 heart, etc.
+  min-health: 1.0
+
+# Messages - supports & color codes
+# Placeholders: {player} = target player name, {label} = command label used
+messages:
+  no-permission: "&cYou do not have permission to use this command."
+  usage: "&cUsage: /{label} [add|remove|reload] <player>"
+  player-not-found: "&cPlayer not found or not online."
+  player-added: "&a{player} has been added to the rigged combat list."
+  player-already-in-list: "&e{player} is already in the list."
+  player-removed: "&a{player} has been removed from the rigged combat list."
+  player-not-in-list: "&e{player} is not in the list."
+  reloaded: "&aRiggedCombat config reloaded successfully."
+  plugin-enabled: "RiggedCombat Plugin enabled."
+  plugin-disabled: "RiggedCombat Plugin disabled."
+
+# Player list - managed by the plugin, do not edit manually
+rigged-players: []
