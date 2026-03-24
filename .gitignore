@@ -1,33 +1,39 @@
-# Compiled output
+# Build output
 target/
-*.class
-*.jar
-*.war
-*.ear
+build/
+out/
 
-# Maven
-.mvn/
-!.mvn/wrapper/maven-wrapper.jar
+# Obfuscation & mapping stuff
+mappings/
+proguard.conf
+skidfuscator.json
+skidfuscator.log
+OBFUSCATION.md
+*.map
 
-# IDE files
+# Scripts & tools
+scripts/
+tools/
+build.sh
+
+# IDE
 .idea/
 *.iml
-*.iws
-*.ipr
+.vscode/
 .eclipse/
 .settings/
 .project
 .classpath
-.vscode/
 
 # Logs
 *.log
-skidfuscator.log
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Build output
-build/
-out/
+# Compiled classes
+*.class
+*.jar
+*.war
+*.ear
