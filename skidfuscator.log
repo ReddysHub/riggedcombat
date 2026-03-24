@@ -1,0 +1,3 @@
+2026-03-05 09:37:40 WARN  Skidfuscator:76 - Skipped verification...
+2026-03-05 09:37:40 WARN  ClassTree:201 - Phantom class: org/bukkit/plugin/java/JavaPlugin
+2026-03-05 09:37:40 ERROR ClassTree:259 - No superclass org/bukkit/plugin/java/JavaPlugin for me/xcloud/riggedcombat/RiggedCombatPlugin

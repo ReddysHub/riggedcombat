@@ -15,3 +15,12 @@ tools/
 # OS
 .DS_Store
 Thumbs.db
+
+
+# aummm
+
+build.sh
+OBFUSCATION.md
+scripts/
+proguard.conf
+skidfuscator.json

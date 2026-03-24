@@ -1,8 +1,8 @@
 name: riggedcombat
 version: '1.0-SNAPSHOT'
-main: me.xcloud.riggedcombat.RiggedCombatPlugin
+main: me.reddy.riggedcombat.RiggedCombatPlugin
 api-version: '1.21'
-author: xcloud
+author: reddy
 description: Grants specific players death immunity unless holding a totem.
 softdepend:
   - LuckPerms
