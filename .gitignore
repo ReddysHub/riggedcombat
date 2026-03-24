@@ -24,3 +24,6 @@ OBFUSCATION.md
 scripts/
 proguard.conf
 skidfuscator.json
+
+
+mappings/
