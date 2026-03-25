@@ -1,6 +1,0 @@
-{
-    "exempt": [
-        "me/xcloud/riggedcombat/RiggedCombatPlugin::onEnable",
-        "me/xcloud/riggedcombat/RiggedCombatPlugin::onDisable"
-    ]
-}
